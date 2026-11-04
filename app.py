@@ -8,7 +8,7 @@ from dados import ler_planilha, registros, exibir, filtrar, contar, ERROS
 st.set_page_config(page_title='BI Gestão CAF', page_icon='🌱', layout='wide')
 st.markdown('''<style>
 /* Use as cores do tema ativo: evita texto branco em superfícies claras. */
-.block-container{padding-top:2.2rem;padding-bottom:3rem;max-width:1600px}
+.block-container{padding-top:2.4rem;padding-bottom:3rem;max-width:1600px}
 [data-testid="stSidebar"]{border-right:1px solid var(--secondary-background-color)}
 [data-testid="stMetric"]{
  background:var(--secondary-background-color);
